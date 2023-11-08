@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ghk"
+    tools:context=".ActivityGeneral2">
+    <TextView
+        android:id="@+id/tvvv"
+        android:layout_width="205dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="209dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="38dp"
+        android:background="#05192E"
+
+        android:text="@string/_2_which_of_the_following_is_used_in_pencils"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#AE3CC3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="247dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="185dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvvv">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#05192E"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/graphite14"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:rippleColor="#07DA0F"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#05192E"
+            android:text="@string/silicon12"
+            android:textColor="#AB47BC"
+            android:textStyle="bold"
+            app:rippleColor="#D80909"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#05192E"
+            android:text="@string/charcoal12"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:rippleColor="#ED0A0A"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#05192E"
+            android:text="@string/phosphorous12"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:rippleColor="#ED0A0A"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

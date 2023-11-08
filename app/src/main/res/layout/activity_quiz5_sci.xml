@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bquiz1"
+    tools:context=".Quiz5Sci">
+
+    <TextView
+        android:id="@+id/SIXTH"
+        android:layout_width="242dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="37dp"
+        android:background="@drawable/rounder"
+        android:text="@string/_4_which_of_the_following_is_a_non_metal_that_remains_liquid_at_room_temperature"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#AE3CC3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="247dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="26dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/textr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SIXTH">
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/phosphorousss"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:rippleColor="#DA0707"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="@string/bromineee"
+            android:textColor="#AB47BC"
+            android:textStyle="bold"
+            app:rippleColor="#4CAF50"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="@string/chlorineee"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:rippleColor="#B50909"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="@string/heliummm"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:rippleColor="#ED0A0A"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="39dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="154dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/rounder"
+        android:text="@string/_4_4"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/SIXTH"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textr"
+        android:layout_width="154dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/rounder"
+        android:textAlignment="center"
+        android:textColor="#9C27B0"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="113dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="33dp"
+        app:layout_constraintBottom_toTopOf="@+id/SIXTH"
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/s11" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

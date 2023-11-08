@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bquiz1"
+    tools:context=".science">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="239dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="103dp"
+
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/rounder"
+        android:text="@string/_1_brass_gets_discoloured_in_air_because_of_the_presence_of_which_of_the_following_gases_in_air"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#AE3CC3"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="242dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="155dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/oxygen"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:rippleColor="#ED0A0A"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="@string/hydrogen_sulphide"
+            android:textColor="#AB47BC"
+            android:textStyle="bold"
+            app:rippleColor="#07ED10"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="@color/black"
+            android:text="@string/carbon_dioxide"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:rippleColor="#ED0A0A"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:text="@string/nitrogen"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:rippleColor="#ED0A0A"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="36dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="306dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/rounder"
+        android:text="@string/_1_4"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="128dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/s11" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

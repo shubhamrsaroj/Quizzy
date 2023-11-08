@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quiz3Sci"
+    android:background="@drawable/bquiz1">
+
+    <TextView
+        android:id="@+id/THIRD"
+        android:layout_width="205dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/rounder"
+        android:text="@string/_2_which_of_the_following_is_used_in_pencils"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+        android:textColor="#AE3CC3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="247dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="122dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/THIRD">
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="@string/graphite14"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:rippleColor="#07DA0F"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="@color/black"
+            android:text="@string/silicon12"
+            android:textColor="#AB47BC"
+            android:textStyle="bold"
+            app:rippleColor="#D80909"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="@color/black"
+            android:text="@string/charcoal12"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:rippleColor="#ED0A0A"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:backgroundTint="@color/black"
+            android:text="@string/phosphorous12"
+            android:textColor="#9C27B0"
+            android:textStyle="bold"
+            app:rippleColor="#ED0A0A"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="40dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/rounder"
+        android:text="@string/_2_4"
+        android:textColor="#9C27B0"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/THIRD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="132dp"
+        android:layout_height="153dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="129dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/s11" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
